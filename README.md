@@ -37,11 +37,11 @@
 - amount of investment into lines: xxx
 
 
-## Content
-* There is an existing "Model-base" which is about the so-called "Transmission extension problem".
-* A little networt structure was taken from the IEEE 24 (test case system) node structure (see picture below).
+## Content - "Transmission extension problem"
+* A little network structure was taken from the IEEE 24 test case system (see picture below).
 * In this repository the option of node expansion with corresponding generators is included.
-* The model solves a muliperiodic problem represented by 24 representative hours in a year (three years in total). The different total load in each hour is distributed due to the specific share of each node.
+* The model solves a muliperiodic problem represented by 24 representative hours in a year (three years in total)
+* The systems total load for each hour is distributed to each node due to the specific demand share.
 * The load changes with the corresponding year. 
 * The model can decide in with hour t and in which year the best transmission and node expension plan/choise is done.
 * Important remark: A building decision in period t in a sepcific year remains in the following periods and years.
